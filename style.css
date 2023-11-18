@@ -1,0 +1,125 @@
+html{
+    background-color: azure;
+}
+.logo img{
+    width: 164px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.right ul li span{
+    padding: 0 5px;
+}
+
+.one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+  margin: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.one span{
+  font-size: 40px;
+}
+
+section span img{
+  width: 100px;
+  margin: 0 23px;
+}
+
+.one p{
+  font-size: 23px;
+  width: 55vw;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+background: #00b6d1;
+padding: 14px 16px;
+color: white;
+border: none;
+border-radius: 6px;
+font-weight: 700;
+margin: 12px 0;
+cursor: pointer;
+}
+
+.green{
+  background-color: #5cb85c;
+}
+.two{
+    max-width: 70vw;
+    margin: auto;
+  
+  
+}
+.smill{
+  font-size: 12px;
+}
+
+.item{
+    padding: 23px;
+    background: #e0e8ea;
+    border-radius: 12px;
+    font-size: 20px;
+    
+   
+}
+
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    
+}
+
+.download{
+    padding-bottom: 50px;
+}
+
+.download span:nth-child(1){
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width:600px){
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    
+}
+
+   header{
+    display: none;
+   }
+   
+
+}
